@@ -1,0 +1,10 @@
+<html>
+  <link rel="stylesheet" href ="app.component.css">
+
+  <h1>{{title}}</h1>
+
+  <h2>Possble Events</h2>
+  <ul>
+    <li *ngFor="let weatherForecast of weatherForecasts">{{weatherForecast.summary}}</li>
+  </ul>
+</html>
